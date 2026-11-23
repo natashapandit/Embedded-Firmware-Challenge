@@ -15,8 +15,8 @@ target_include_directories(test_ringbuf PRIVATE part1)
 target_link_libraries(test_ringbuf PRIVATE Threads::Threads)
 
 add_executable(test_pi_mutex
-    part1/pi_mutex.c
-    part1/test_pi_mutex.c
+    part2/pi_mutex.c
+    part2/test_pi_mutex.c
 )
 target_include_directories(test_pi_mutex PRIVATE part2)
 target_link_libraries(test_pi_mutex PRIVATE Threads::Threads)
