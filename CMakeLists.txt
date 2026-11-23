@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(analog_devices_challenge C)
+project(embedded_firmware_challenge C)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
